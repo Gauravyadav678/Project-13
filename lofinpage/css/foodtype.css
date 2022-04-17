@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: ppx;
+}
+
+body{
+   background-color:lightgray;
+    
+}
+.card{
+    margin-left: 135px;
+    margin-top: 100px;
+    float: left;
+    background-color: cyan;
+    height: 300px;
+    width: 250px;
+    box-shadow: 20px 20px #888888;
+}
+
+
+.card img{
+   
+    border: 2px solid;
+    margin-left: 23px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.card:hover{
+   background-color: blueviolet;
+  transform: translateY(5px);
+}
+.card p{
+    margin-top: 8px;
+    font-size:23px;
+    text-align: center;
+    font-style: italic;
+      
+}
+.order{
+    margin-left: 85px;
+    font-size:18px;
+    background-color: burlywood;
+}
+.order:hover{
+background-color: hotpink;
+transform: scale(1.5);
+max-zoom: 10px;
+}

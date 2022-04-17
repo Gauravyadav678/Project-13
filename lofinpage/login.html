@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./singup.css">
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>  
+    <title> Login sign up page</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <h3 class="content">Invertis Canteen Management System</h3>
+    <div class="container" heigh="200px" width="200px" ALIGN="Center">
+        
+        <div class="card">
+          <div class="card-details">
+           <h1 style="background-color: black;"><span style="font-size: 35px;color: yellow;">Enter Your details</span></h1>
+           Email:   <input type="email" id="email" style="font-size: 20px; margin-top: 2px;margin-left: 10px;" placeholder="Enter your Email">
+            <br>
+        
+           Password:<input type="password" id="password" style="font-size: 15px;" placeholder="Enter Your Password"> 
+           <div class="buttons">
+            <button id="signUp" onclick="signUp()" class="b1">SignUP</button>
+            <button id="signIn" onclick="signIn()" class="b2">signIn</button>
+            <button id="signOut" onclick="signOut()" class="b3">signOut</button>
+           </div>
+          </div>
+        </div>
+    </div>
+    <script src="/lofinpage/loginfirebaseconfig.js"></script>
+    <script src="/lofinpage/loginscript.js"></script>
+</body>
+</html>

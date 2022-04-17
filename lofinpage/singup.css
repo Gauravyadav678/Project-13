@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./invertis1.jpg');
+    background-position: center center;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.content{
+    text-align: center;
+    color:dodgerblue;
+    margin-top: 80px;
+    font-size: 70px;
+    background-color: black;
+}
+.card{
+    margin-top: 150px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    align-items: center;
+
+    
+}
+.card-details{
+  font-size: 30px;
+  
+
+}
+.buttons{
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 50px;
+  size: 50px;
+}
+
+.b1:hover{
+  background-color:green;
+  transform: scale(1.5);
+}
+.b2:hover{
+  background-color: pink;
+  transform: scale(1.5);
+}
+.b3:hover{
+  background-color:green;
+  transform: scale(1.6);
+}

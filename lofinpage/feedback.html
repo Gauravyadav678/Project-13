@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./feedback.css">
+    <title>FeedBack</title>
+</head>
+<body>
+    <header><nav id="navbar">
+        <div id="logo">
+            <img src="./img/anikaimage.jpeg" style="border-radius:50%;" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="index.html">Services</a></li>
+            <li class="item"><a href="/lofinpage/foodtype.html">Category</a></li>
+            <li class="item"><a href="/lofinpage/feedback.html">FeedBack</a></li>
+            <li class="item"><a href="/lofinpage/developers.html">Our Developers</a></li>
+           
+           
+        </ul>
+        <h1 style="color: red;font-size: 50px;text-align: center;"><span style="margin-left: 55px;color: yellow;"> Inve</span>rTiS <span style="color: yellow;font-size: 50px;">Canteen</span></h1>
+    </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+           <div class="circle">
+               <h2>Feedback   Panel</h2>
+           </div> 
+           <div class="details">
+            <label style="font-size: 25px;font-style: italic;margin-left: 50px;">Name:</label><input type="text" id="name" class="i1" placeholder="Enter Your Name">
+            <br>
+            <br>
+            <label style="font-size: 25px;font-style: italic;margin-left: 50px;">E-Mail:</label><input type="email" id="mail" class="i2" placeholder="Enter Your Email" >
+            <br>
+            <br>
+              <textarea style="margin-left: 130px;" id="feedback" cols="30" rows="5" class="i3" placeholder="Give Your Feedback..........!"></textarea>
+               <button class="submit" id="insert">Submit</button> 
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script> 
+     <script src="/lofinpage/loginfirebaseconfig.js"></script>
+     <script src="/lofinpage/feedback.js"></script>
+   
+</body>
+</html>
