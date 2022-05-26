@@ -34,13 +34,13 @@ function signOut(){
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
         var email = user.email;
-        if (window.location.href.indexOf("index.html") == -1) {
-            window.location.href = "index.html";
+        if (window.location.href.indexOf("home.html") == -1) {
+            window.location.href = "home.html";
         }
     } else {
         
-        if (window.location.href.indexOf("login.html") == -1) {
-            window.location.href = "login.html";
+        if (window.location.href.indexOf("index.html") == -1) {
+            window.location.href = "index.html";
         }
     }
 })

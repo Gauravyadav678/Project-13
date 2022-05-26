@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> <i>googleapis</i> </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script> 
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <header><nav id="navbar">
+        <div id="logo">
+            <img src="./img/anikaimage.jpeg" style="border-radius:50%;" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="home.html">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="foodtype.html">Category</a></li>
+            <li class="item"><a href="feedback.html">Feedback</a></li>
+            <li class="item"><a href="developers.html">Our Developers</a></li>
+            <li> <button id="signOut" onclick="signOut()">signOut</button></li>
+           
+        </ul>
+        <h1 style="color: red;font-size: 50px;text-align: center;"><span style="margin-left: 55px;color: yellow;"> Inve</span>rTiS <span style="color: yellow;font-size: 50px;">Canteen</span></h1>
+    </nav>
+   
+
+    <section id="home">
+       
+       <marquee behavior="alternate" direction="left" width="110%"> <h1 class="primary-marquee" style="color:lime">Your Welcome in Invertis Online Canteen System</h1></marquee>
+        <p class="text">“One cannot think well, love well, sleep well, if one has not dined well.”</p>
+        <button type="button" class="my-button"><a href="./foodtype.html">See Menu</a></button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Pi<span style="color: red;">ZZ</span>a</h2>
+                <p class="card-paragraph">We Are Here to Provide You the The best Quality Food!</p>
+            </div>
+            <div class="box">
+                <img src="./img/momos.jpg" alt="">
+                <h2 class="h-secondary center">mo<span style="color: red;">Mo</span>s!</h2>
+                <p class="card-paragraph">We Are Here to Provide You the The best Quality Food!</p>
+            </div>
+            <div class="box">
+                <img src="./img/burger.webp" alt="">
+                <h2 class="h-secondary center">bu<span style="color: red;">Rg</span>eR</h2>
+                <p class="card-paragraph">We Are Here to Provide You the The best Quality Food!</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="/lofinpage/loginfirebaseconfig.js"></script>
+    <script src="/lofinpage/loginscript.js"></script>
+     
+    <footer>
+        <div class="footer-section">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!   
+        </div>
+    </footer>
+   
+</body>
+
+</html>
