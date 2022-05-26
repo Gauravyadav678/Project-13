@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyCChqh51Yq8pU7WDQKVPFFyTTo14QaSjgE",
-  authDomain: "hellogaurav-55c78.firebaseapp.com",
-  databaseURL: "https://hellogaurav-55c78-default-rtdb.firebaseio.com",
-  projectId: "hellogaurav-55c78",
-  storageBucket: "hellogaurav-55c78.appspot.com",
-  messagingSenderId: "310266406081",
-  appId: "1:310266406081:web:f3ba0a2582229e7b15a040"
+  apiKey: "AIzaSyD1Gcf7KUmcUNltTlyKqIKI3XPJGMXlgtc",
+  authDomain: "last-11452.firebaseapp.com",
+  databaseURL: "https://last-11452-default-rtdb.firebaseio.com",
+  projectId: "last-11452",
+  storageBucket: "last-11452.appspot.com",
+  messagingSenderId: "263977096542",
+  appId: "1:263977096542:web:b3fb194f5fede621a82bcf"
     };
     // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
